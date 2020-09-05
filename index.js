@@ -1,14 +1,17 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+
 const commentsRoute = require('./routes/comments');
 const contactsRoute = require('./routes/contacts');
 const productsRoute = require('./routes/products');
 const vehiclesRoute = require('./routes/vehicles');
+
 const app = express();
 
 app.use(express.static('public'));
 app.use(bodyParser.json());
 
+//Set paths for routers//
 app.use(commentsRoute);
 app.use(contactsRoute);
 app.use(productsRoute);
