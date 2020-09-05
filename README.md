@@ -16,7 +16,7 @@ A web page has been created for us. Our job is to build the server.
 ### Express.static
 
 * After "app" is defined, add the `express.static` middleware to express referencing the "public" folder
-* Navigate to http://localhost:4000 to see the web page
+* Navigate to http://localhost:4001 to see the web page
 
 ### Body-parser
 
